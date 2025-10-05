@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Pribadi</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-style: italic;
+      color: #bdc3c7;
+    }
+
+    .container {
+      width: 85%;
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+
+    .about, .projects, .contact {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 15px auto;
+      background-color: #ddd; /* kolom gambar sementara */
+    }
+
+    .about h2, .projects h2, .contact h2 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .projects .project-item {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 15px;
+      margin-top: 15px;
+      align-items: center;
+    }
+
+    .projects img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      background-color: #ddd; /* kolom gambar sementara */
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact input, .contact textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      background: #3498db;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background: #2980b9;
+    }
+
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: #bdc3c7;
+      padding: 15px 0;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .projects .project-item {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Portofolio Muhammad Reyga Nasrullah</h2>
+    <p>Web Developer | Desainer | Newbiedev</p>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <h2>Tentang Saya</h2>
+      <img src="Assets/photo/Reyga.jpg" alt="Foto Profil">
+      <p>Halo! Saya adalah seseorang yang tertarik pada dunia teknologi, desain, dan pengembangan web. Saya senang membuat sesuatu yang bermanfaat dan indah untuk dilihat.</p>
+    </section>
+
+    <section class="projects">
+      <h2>Data diri</h2>
+      <div class="project-item">
+        <img src="Assets/photo/sekolah.jpg" alt="Gambar Proyek 1">
+        <div>
+          <h3>Sekolah Saya</h3>
+          <p>Saya merupakan seorang pelajar MTsN 4 Cianjur, yang berlokasi di Kecamatan Sukanagara, Kabupaten Cianjur, Provinsi Jawa Barat (kode pos 43264).</p>
+        </div>
+      </div>
+
+      <div class="project-item">
+<section class="video-section">
+<video width="600" controls poster="Assets/photo/Padjadjaran.jpg">
+    <source src="Assets/video/pramuka.mp4" type="video/mp4">
+  </video>
+</section>
+
+<style>
+.video-section {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 640px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.video-section video {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  outline: none;
+}
+</style>
+        <div>
+          <h3>Ekstrakulikuler Pramuka di MTsN 4 Cianjur</h3>
+          <p>Dalam ekstrakulikuler ini, saya memiliki jabatan sebagai Pinru (Pemimpin Regu). Tugas saya adalah memimpin regu, menyampaikan arahan dari pembina, menjaga kekompakan anggota, dan menjadi contoh dalam sikap serta kedisiplinan. Jabatan ini membuat saya belajar bagaimana mengatur, memimpin, dan mengambil keputusan dengan bijak.
+</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Kontak</h2>
+      <form>
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Pendapat anda tentang saya"
+        <textarea rows="5" placeholder="Pesan"></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>© My birthday 14/10/2010</p>
+  </footer>
+</body>
+</html>

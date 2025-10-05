@@ -1,0 +1,6 @@
+Indonesia:
+Buka file html nya di quick edit atau browser bawaan ( Disarankan menggunakan Quickedit), Jangan di Chrome
+
+English:
+Open the html file in quick edit or the built-in browser (Quickedit is recommended), not in Chrome
+ 
